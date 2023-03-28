@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.titleLabel = new System.Windows.Forms.Label();
             this.option1Button = new System.Windows.Forms.Button();
             this.option2Button = new System.Windows.Forms.Button();
@@ -45,7 +46,7 @@
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.BackColor = System.Drawing.Color.Transparent;
+            this.titleLabel.BackColor = System.Drawing.Color.Black;
             this.titleLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.titleLabel.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.White;
@@ -97,7 +98,7 @@
             this.option4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option4Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option4Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option4Button.Location = new System.Drawing.Point(673, 537);
+            this.option4Button.Location = new System.Drawing.Point(673, 558);
             this.option4Button.Name = "option4Button";
             this.option4Button.Size = new System.Drawing.Size(473, 81);
             this.option4Button.TabIndex = 4;
@@ -114,7 +115,7 @@
             this.option3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option3Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option3Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option3Button.Location = new System.Drawing.Point(92, 537);
+            this.option3Button.Location = new System.Drawing.Point(92, 558);
             this.option3Button.Name = "option3Button";
             this.option3Button.Size = new System.Drawing.Size(473, 81);
             this.option3Button.TabIndex = 3;
@@ -129,9 +130,9 @@
             this.outputLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.outputLabel.Font = new System.Drawing.Font("Arial", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(90, 118);
+            this.outputLabel.Location = new System.Drawing.Point(90, 92);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(1056, 221);
+            this.outputLabel.Size = new System.Drawing.Size(1056, 183);
             this.outputLabel.TabIndex = 5;
             // 
             // option6Button
@@ -142,7 +143,7 @@
             this.option6Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option6Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option6Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option6Button.Location = new System.Drawing.Point(673, 424);
+            this.option6Button.Location = new System.Drawing.Point(673, 445);
             this.option6Button.Name = "option6Button";
             this.option6Button.Size = new System.Drawing.Size(473, 81);
             this.option6Button.TabIndex = 7;
@@ -159,7 +160,7 @@
             this.option5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option5Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option5Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option5Button.Location = new System.Drawing.Point(92, 424);
+            this.option5Button.Location = new System.Drawing.Point(92, 445);
             this.option5Button.Name = "option5Button";
             this.option5Button.Size = new System.Drawing.Size(473, 81);
             this.option5Button.TabIndex = 6;
@@ -176,7 +177,7 @@
             this.option10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option10Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option10Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option10Button.Location = new System.Drawing.Point(673, 199);
+            this.option10Button.Location = new System.Drawing.Point(673, 220);
             this.option10Button.Name = "option10Button";
             this.option10Button.Size = new System.Drawing.Size(473, 81);
             this.option10Button.TabIndex = 9;
@@ -193,7 +194,7 @@
             this.option9Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option9Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option9Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option9Button.Location = new System.Drawing.Point(92, 199);
+            this.option9Button.Location = new System.Drawing.Point(92, 220);
             this.option9Button.Name = "option9Button";
             this.option9Button.Size = new System.Drawing.Size(473, 81);
             this.option9Button.TabIndex = 8;
@@ -210,7 +211,7 @@
             this.option8Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option8Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option8Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option8Button.Location = new System.Drawing.Point(673, 312);
+            this.option8Button.Location = new System.Drawing.Point(673, 333);
             this.option8Button.Name = "option8Button";
             this.option8Button.Size = new System.Drawing.Size(473, 81);
             this.option8Button.TabIndex = 11;
@@ -227,7 +228,7 @@
             this.option7Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.option7Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.option7Button.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.option7Button.Location = new System.Drawing.Point(92, 312);
+            this.option7Button.Location = new System.Drawing.Point(92, 333);
             this.option7Button.Name = "option7Button";
             this.option7Button.Size = new System.Drawing.Size(473, 81);
             this.option7Button.TabIndex = 10;
@@ -241,7 +242,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1252, 824);
+            this.BackgroundImage = global::AmongUsAdventureGame.Properties.Resources.amongUsBackground;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1190, 824);
             this.Controls.Add(this.option8Button);
             this.Controls.Add(this.option7Button);
             this.Controls.Add(this.option10Button);
@@ -254,6 +257,7 @@
             this.Controls.Add(this.option2Button);
             this.Controls.Add(this.option1Button);
             this.Controls.Add(this.titleLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Among Us";
